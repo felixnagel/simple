@@ -13,7 +13,7 @@
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "LuckyNail\\BlackBox\\": "src"
+            "LuckyNail\\Simple\\": "src"
         }
     }
 }
