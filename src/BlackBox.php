@@ -3,7 +3,7 @@
 namespace LuckyNail\Simple;
 
 class BlackBox{
-	public static $_aTrunk = [];
+	protected static $_aTrunk = [];
 	protected $_sKey;
 
 	public function __construct($sKey){
