@@ -24,7 +24,7 @@ class BlackBox{
 	}
 	public function look(){
 		if(!isset(self::$_aTrunk[$this->_sKey])){
-			return null;
+			return [];
 		}
 		return self::$_aTrunk[$this->_sKey];
 	}
