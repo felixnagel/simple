@@ -20,13 +20,13 @@ class BlackBox{
 	}
 	public function insert($mVal){
 		self::global_insert($this->_sKey, $mVal);
+		return $this;
 	}
 	public function get(){
 		return self::$_aBox[$this->_sKey];
 	}
 	public function truncate(){
-		$mResult = $this->get();
 		unset(self::$_aBox[$this->_sKey]);
-		return $mResult;
+		return $this;
 	}
 }
