@@ -1,7 +1,5 @@
 <?php
-
 namespace LuckyNail\Simple;
-
 trait ArrayDotSyntax{
 	protected function ads_get(&$aArr, $sKey){
 	    $aKey = explode('.', $sKey);
